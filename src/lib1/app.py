@@ -1,3 +1,2 @@
-def one() -> int:
-    """Returns 1."""
-    return 1
+def add(*args) -> int:
+    return sum(args)

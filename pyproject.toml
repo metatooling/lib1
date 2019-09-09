@@ -4,6 +4,9 @@ version = "0.1.0" # PACKAGE_VERSION  (This comment helps bumpversion find the ri
 description = ""
 authors = ["retool <email@example.com>"]
 readme = "README.rst"
+packages = [
+    { include = "lib1", from = "src" },
+]
 
 [tool.poetry.dependencies]
 python = "^3.7"
