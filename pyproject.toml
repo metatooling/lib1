@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "lib1"
+name = "01d61084-d29e-11e9-96d1-7c5cf84ffe8e"
 version = "0.1.0" # PACKAGE_VERSION  (This comment helps bumpversion find the right line.)
 description = ""
 authors = ["retool <email@example.com>"]
