@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-from distutils.core import setup
+import setuptools
 
 
 package_dir = {"": "src"}
@@ -29,4 +29,4 @@ setup_kwargs = {
 }
 
 
-setup(**setup_kwargs)
+setuptools.setup(**setup_kwargs)
