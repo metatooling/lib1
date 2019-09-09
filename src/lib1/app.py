@@ -1,2 +1,2 @@
-def add(*args) -> int:
-    return sum(args)
+def add(left, right) -> int:
+    return sum([left, right])
