@@ -3,7 +3,7 @@ name = "01d61084-d29e-11e9-96d1-7c5cf84ffe8e"
 version = "0.1.0"
 description = "library"
 authors = ["metatooling <noreply+zztokdufhjcfspskvqvt@cordaz.com>"]
-packages = {include = "lib1", from = "src"}
+packages = [{include = "lib1", from = "src"}]
 
 [tool.poetry.dependencies]
 python = "^3.7"
@@ -29,13 +29,13 @@ pygments = {version = "^2.4", allows-prereleases = true}
 pudb = "^2019.1"
 ipython = "^7.8"
 pp-ez = "^0.2.0"
-sphinx_autodoc_typehints = "^1.7"
+
 
 [tool.poetry.extras]
 docs = [
     "sphinx",
     "sphinx-rtd-theme",
-    "sphinx-autodoc-typehints",
+
     "sphinx-click",
     "marshmallow-jsonschema",
     "sphinx-jsonschema",

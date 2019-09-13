@@ -1,11 +1,5 @@
-from click.testing import CliRunner
-
-from lib1.cli import main
+import lib1.app
 
 
-def test_main():
-    runner = CliRunner()
-    result = runner.invoke(main, [])
-
-    assert result.output == "()\n"
-    assert result.exit_code == 0
+def test_add():
+    assert lib1.app.add(1, 2) == 3
