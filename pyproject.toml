@@ -2,7 +2,6 @@
 name = "01d61084-d29e-11e9-96d1-7c5cf84ffe8e"
 version = "0.1.0"
 description = "library"
-authors = ["metatooling <noreply+zztokdufhjcfspskvqvt@cordaz.com>"]
 packages = [{include = "lib1", from = "src"}]
 readme = "README.rst"
 
